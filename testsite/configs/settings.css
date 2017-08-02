@@ -1,0 +1,93 @@
+body{
+background-color:#eee; 
+}
+form{
+background: -webkit-linear-gradient(top,black,white,red,white,green,white 400px);
+background:-moz-gradient(top,black,white,red,white,green,white);
+background:-o-gradient(top,black,white,red,white,green,white);
+
+background:-gradient(top,black,white,red,white,green ,white);
+width: 490px;
+height: 450px;
+font-family: sans-serif, Tahoma, Geneva ;
+  font-size: 14px;
+  font-style: italic;
+ line-height: 24px;
+  font-weight: bold;
+  color: #09C;
+  line-height: 24px;
+  border-radius: 10px;
+  margin: auto;
+  
+  border: 1px solid #999;
+  text-decoration: none;
+padding: 10px;
+ position: relative;
+ margin-top: 10%;
+ box-shadow: 0px 0px 8px green;
+	-moz-box-shadow: 0px 0px 8px green;
+	-o-box-shadow: 0px 0px 8px green;
+	-webkit-box-shadow: 0px 0px 8px green;
+}
+input{
+ margin: auto;
+	display: block;
+	width: 450px;
+	height: 35px;
+	box-shadow: 0px 0px 8px green;
+	-moz-box-shadow: 0px 0px 8px green;
+	-o-box-shadow: 0px 0px 8px green;
+	-webkit-box-shadow: 0px 0px 8px green;
+
+}
+input[type="text"]:focus, [type="password"]:focus{
+
+border: 1px blue solid;
+box-shadow: 0px 0px 8px blue;
+	-moz-box-shadow: 0px 0px 8px blue;
+	-o-box-shadow: 0px 0px 8px blue;
+	-webkit-box-shadow: 0px 0px 8px blue;
+}
+input[type="submit"]:hover{
+
+	background-color: white;
+	color: black;
+}
+input[type="submit"]{
+	width: 100px;
+  position: absolute;
+ left: 25px;
+  bottom: 20px;
+  background: #09C;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #999;
+}
+
+input[type="reset"]:hover{
+
+  background-color: #FDB6C7;
+  color: black;
+}
+input[type="reset"]{
+  width: 100px;
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  background: #F92659;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #999;
+}
+a{
+    color:#909090; 
+  text-decoration: none;
+}
+a:hover{
+
+  color: #66D9EF;
+}
