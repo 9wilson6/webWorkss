@@ -11,14 +11,18 @@ $adress=$_POST['adress'];
 
 
 if ($name && $email && $password && $adress) {
+	$sq="SELECT * FROM users where name='$name'";
+	$query=mysqli_query($conn,$sq) or die(mysqli_error($conn));
+	$count=mysqli_num_rows($query);
+	if (!$count==0) {
+		echo "userNam already taken";
+		exit();
+	}else{
 	$sql="INSERT into users(name, email,passwrd,adress)VALUES('$name','$email','$password','$adress')";
-   $result=mysqli_query($conn,$sql);
-if ($result) {
-	echo "success";
-}else{
-die(mysqli_error($conn));
+   $result=mysqli_query($conn,$sql)or die(mysqli_error($conn));
 
-}
+echo "success";
+
 }
    
 }else{
@@ -26,7 +30,7 @@ die(mysqli_error($conn));
 	echo "All fileds must be field in";
 }
 mysqli_close($conn);
-
+}
  ?>
  <center>
 

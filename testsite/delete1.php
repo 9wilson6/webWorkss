@@ -30,7 +30,7 @@ while ($row = mysqli_fetch_array($rs)) {
      <td align=center> $email <td/>
      <td align=center> $passwrd<td/>
      <td align=center>$adress<td/>
-      <td align=center><a href=\"edit.php?id=$id&name=$name&passwrd=$passwrd&email=$email&adress=$adress\">edit</a> 
+      <td align=center><a href=\"cornfirmdel.php?id=$id&name=$name&passwrd=$passwrd&email=$email&adress=$adress\">delete</a><td/>
      <tr/>
 	";
 }
