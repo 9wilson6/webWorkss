@@ -32,6 +32,7 @@ print("<br/>");
 	<title></title>
 </head>
 <body>
-<?php include("links.php") ?>
+print('<a href="links.php">Home</a>');
+
 </body>
 </html>

@@ -14,5 +14,6 @@ $sql="DELETE FROM users where Id='$id'";
 $result=mysqli_query($conn,$sql)or die(mysqli_error($conn));
 echo "record succcessfully deleted";  
 mysqli_close($conn);
-include("links.php");
+print('<a href="links.php">Home</a>');
+
  ?>

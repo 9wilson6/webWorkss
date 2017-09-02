@@ -34,6 +34,7 @@ $adress= $_REQUEST['adress'];
 <input type="reset" name="reset" value="reset">
 <input type="hidden" name="id" value= "<?php echo $id; ?>">
 </form>
-<?php include("links.php") ?>
+print('<a href="links.php">Home</a>');
+
 </body>
 </html>

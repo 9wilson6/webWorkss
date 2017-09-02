@@ -1,6 +1,7 @@
 
 
 <?php 
+echo "<div class.cont>";
 include("dbconn.php");
 
 if (isset($_GET['start'])) {
@@ -85,11 +86,12 @@ if (!($start >= $pages-1)) {
 	echo " <a href='delete1.php?start=$next '>next </a>  ";
 }
 echo "<center/>";
+echo "<div/>";
  ?>
  <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="configs/settings.css">
+<link rel="stylesheet" type="text/css" href="configs/cronfim.css">
 <style type="text/css">
 table a{
 	text-decoration: none;
@@ -103,6 +105,7 @@ table a{
 	<title></title>
 </head>
 <body>
-<?php include("links.php") ?>
+<a href="links.php">Home</a>
+
 </body>
 </html>

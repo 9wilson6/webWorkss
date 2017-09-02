@@ -6,19 +6,22 @@
 </head>
 <body>
 <center>
-	<a href="?$i">echo $i</a>
+
 	<form method="POST" action="searchdb.php">
 	
 	<input type="text" name="search"><br><br>
 	<input type="submit" name="submit" value="search-Database">
 
 </form>
+
 </center>
+<a href="links.php">Home</a>
 <hr>
 <U>Results: </U>&nbsp
 </body>
 </html>
 <?php 
+error_reporting(0);
 require("dbconn.php");
 if (isset($_POST['submit'])) {
 $search=$_POST['search'];
@@ -59,9 +62,10 @@ if ($num>0 ) {
 	 echo "<h5> Email: $email <br> Password: $password<br> Adress:$adress<h5/> <br>";
 }
 }else{
-	echo " sorry nothing matched you request";
+	//echo " sorry nothing matched you request";
 }
 
 mysqli_close($conn);
-include("links.php");
+
+
  ?>

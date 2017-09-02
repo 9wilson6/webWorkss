@@ -1,18 +1,32 @@
 body{
-background-color:#eee; 
+    background: url(images/4.jpg)  ;
+line-height: 20px;
+margin-top: 10px;
+}
+.cont{
+
+  margin: 0px;
+  width: auto;
+  height: 820px;
+  background: rgb(21, 32, 52);
+  opacity: 0.6;
+  border-radius: 10px;
+  border: 2px solid black;
+  /*background: -webkit-linear-gradient(right,rgba(0.40, 0.85, 0.94,0.3));*/
+ /*//background: rgba(0.40, 0.85, 0.94,0.5);*/
 }
 form{
-background: -webkit-linear-gradient(top,black,white,red,white,green,white 400px);
-background:-moz-gradient(top,black,white,red,white,green,white);
-background:-o-gradient(top,black,white,red,white,green,white);
+background: -webkit-linear-gradient(bottom,black,white,red,white,green,white 400px);
+background:-moz-gradient(bottom,black,white,red,white,green,white);
+background:-o-gradient(bottom,black,white,red,white,green,white);
 
-background:-gradient(top,black,white,red,white,green ,white);
+background:-gradient(bottom,black,white,red,white,green ,white);
 width: 490px;
-height: 450px;
+height: 497px;
 font-family: sans-serif, Tahoma, Geneva ;
   font-size: 14px;
   font-style: italic;
- line-height: 24px;
+ line-height: 20px;
   font-weight: bold;
   color: #09C;
   line-height: 24px;
@@ -21,9 +35,9 @@ font-family: sans-serif, Tahoma, Geneva ;
   
   border: 1px solid #999;
   text-decoration: none;
-padding: 10px;
+padding: auto;
  position: relative;
- margin-top: 10%;
+ margin-top: auto;
  box-shadow: 0px 0px 8px green;
 	-moz-box-shadow: 0px 0px 8px green;
 	-o-box-shadow: 0px 0px 8px green;
@@ -40,7 +54,7 @@ input{
 	-webkit-box-shadow: 0px 0px 8px green;
 
 }
-input[type="text"]:focus, [type="password"]:focus{
+input[type="text"]:focus, input[type="file"]:focus, [type="password"]:focus{
 
 border: 1px blue solid;
 box-shadow: 0px 0px 8px blue;
@@ -90,4 +104,27 @@ a{
 a:hover{
 
   color: #66D9EF;
+}
+h1{
+
+color: white;
+  font-size:70px;
+  font-weight: bold;
+  font-family: tahoma;
+  /*opacity: 1;*/
+}
+h2{color:  white;
+font-size: 30px;
+}
+.cont{
+
+  margin: auto;
+  width: auto;
+  height: 740px;
+  background: rgb(21, 32, 52);
+  opacity: 0.6;
+  border-radius: 10px;
+  border: 2px solid black;
+  /*background: -webkit-linear-gradient(right,rgba(0.40, 0.85, 0.94,0.3));*/
+ /*//background: rgba(0.40, 0.85, 0.94,0.5);*/
 }

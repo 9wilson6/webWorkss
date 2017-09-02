@@ -34,7 +34,8 @@ $id=$_REQUEST['id'];
  </html>
  <center>
 
-	<?php include("links.php") ?>
+	print('<a href="links.php">Home</a>');
+
 </center>
 <!DOCTYPE html>
 <html>

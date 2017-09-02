@@ -95,7 +95,7 @@ echo "<center/>";
  <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="configs/settings.css">
+<link rel="stylesheet" type="text/css" href="configs/cronfim.css">
 <style type="text/css">
 table a{
 	text-decoration: none;
@@ -107,6 +107,6 @@ table a{
 	<title></title>
 </head>
 <body>
-<?php include("links.php") ?>
+<a href="links.php">Home</a>
 </body>
 </html>

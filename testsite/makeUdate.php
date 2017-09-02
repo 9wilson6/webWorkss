@@ -23,5 +23,6 @@ $result=mysqli_query($conn,$sql) or die(mysqli_error($conn));
 
 echo "success";
 mysqli_close($conn);
-include("links.php");
+print('<a href="links.php">Home</a>');
+
  ?>
