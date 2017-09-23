@@ -1,0 +1,29 @@
+.navbar-default{
+  
+    background-color: #BBFC90;
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(36, 135, 237, 0.43);
+}
+nav{
+   color: red;
+
+}
+.navbar-brand{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+#well{
+
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+
+.error{
+
+    color: red;
+}
